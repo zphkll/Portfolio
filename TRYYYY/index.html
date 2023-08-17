@@ -1,0 +1,214 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Website Portfolio</title>
+    <link rel="stylesheet" href="style.css">
+    <script src="https://kit.fontawesome.com/9be220fa5a.js" crossorigin="anonymous"></script> 
+</head>
+<body>
+    <div id="header">
+        <div class="container">
+            <nav>
+                
+                <ul id="sidemenu">
+                    <li><a href="#header">Home</a></li>
+                    <li><a href="#about">About</a></li>
+                    <li><a href="#services">Services</a></li>
+                    <li><a href="#portfolio">Portfolio</a></li>
+                    <li><a href="#contact">Contact</a></li>                 
+                </ul>       
+            </nav>
+            <div class="header-text">
+                
+                <h1>Hi, I'm <span>Jerald</span><br>Student from Phinma University</h1>
+            </div>
+        </div>
+
+
+    </div>
+    <!----------about----------->
+    <div id="about">
+        <div class="container">
+            <div class="row">
+                <div class="about-col-1">
+                    <img src="Images/Z.jpg">
+                </div>
+                <div class="about-col-2">
+                    <h1 class="sub-title">About Me</h1>
+                    <p>I am an enthusiastic, self-motivated, reliable, responsible and hard working person.
+                         I am a mature team worker and adaptable to all challenging situations. 
+                         I am able to work well both in a team environment as well as using own initiative. 
+                         I am able to work well under pressure and adhere to strict deadlines</p>
+
+                         <div class="tab-titles">
+                            <p class="tab-links active-link" onclick="opentab('skills')">Skills</p>
+                            <p class="tab-links" onclick="opentab('education')">Education</p>
+                         </div>
+                         <div class="tab-contents active-tab" id="skills">
+                            <ul>
+                                <li><span>Analytical Abilities</span><br></li>
+                                <li><span>Problem Solving</span><br></li>
+                                <li><span>Development</span><br></li>
+                            </ul>
+                         </div>             
+                         <div class="tab-contents" id="education">
+                            <ul>
+                                <li><span>Elementary<br> Gospel of Christ (2013)</span><br></li>
+                                <li><span>Highschool:<br>Gospel of Christ (2017)</span><br></li>
+                                <li><span>Senior Highschool: <br>Virgen Milagrosa University Foundation (2019) </span><br></li>
+                                <li><span>College:<br> University of Pangasinan (Present) </span></li>
+                            
+                            </ul>
+                         </div>
+                </div>
+            </div>
+        </div>
+    </div>
+<!----------Services----------->
+<div id="services">
+    <div class="container">
+        <h1 class="sub-title">My services</h1>
+        <div class="service-list">
+            <div>
+                <i class="fa-solid fa-code"></i>
+                <h2>HTML</h2>
+                <p>Create the structure with HTML. The first thing you have to learn, is HTML, which is the standard markup language for creating web pages.</p>
+                <a href="#">Learn more</a>
+
+            </div>
+                <div>
+                    <i class="fa-brands fa-python"></i>
+                    <h3>PYTHON</h3>
+                    <p>Style with CSS. The next step is to learn CSS, to set the layout of your web page with beautiful colors, fonts, and much more.</p>
+                    <a href="#">Learn more</a>
+                 </div>
+               <div>
+                        <i class="fa-solid fa-c"></i>
+                        <h4>C++</h4>
+                        <p> C++ is portable and can be used to develop applications that can be adapted to multiple platforms. </p>
+                        <a href="#">Learn more</a>
+        
+              </div>
+        </div>
+
+    </div>
+
+</div>
+<!-------Portfolio--------->
+<div id="portfolio">
+    <div class="container">
+        <h1 class="sub-title">My Work</h1>
+        <div class="work-list">
+            <div class="work">
+                <img src="Images/Jerald Ibanez.png">
+                <div class="layer">
+                    <h3>Web design</h3>
+                    <p>information about your site and encourages people to visit your site</p>
+                    <a href="Images/Jerald Ibanez.png"><i class="fa-solid fa-up-right-from-square"></i></a>
+                </div>
+            </div>
+            <div class="work">
+                <img src="Images/Sprite-0002.gif">
+                <div class="layer">
+                    <h3>Artwork</h3>
+                    <p>An artistic work.</p>
+                    <a href="Images/Sprite-0002.gif"><i class="fa-solid fa-up-right-from-square"></i></a>
+                </div>
+            </div>
+                <div class="work">
+                    <img src="Images/bat.gif">
+                    <div class="layer">
+                        <h3>Pixelated Art</h3>
+                        <p>It's a graphic aesthetic that originated from 8 and 16-bit computers, much like video game consoles.</p>
+                        <a href="Images/bat.gif"><i class="fa-solid fa-up-right-from-square"></i></a>
+                    </div>
+                </div>
+                    <div class="work">
+                        <img src="Images/wewddw-export.gif">
+                        <div class="layer">
+                            <h3>Game mobs</h3>
+                            <p>Mobile object Pixel arts</p>
+                            <a href="Images/wewddw-export.gif"><i class="fa-solid fa-up-right-from-square"></i></a>
+                        </div>
+                    </div>          
+        </div>
+        <a href="#contact" class="btn">See more<br> (Coming Soon)</a>
+    </div>
+</div>
+<!--------contact--------->
+<div id="contact">
+    <div class="container">
+        <div class="row">
+            <div class="contact-left">
+                <h1 class="sub-title">Contact Me</h1>
+                <p><i class="fa-solid fa-paper-plane"></i>Contact: Zaphkiel1015@gmail.com</p>
+                <p><i class="fa-solid fa-mobile-screen"></i> 09207284385</p>
+                <div class="social-icons">
+                    <a href="https://facebook.com/jigglejolts" target="_blank"><i class="fa-brands fa-facebook"></i></a>
+                    <a href="https://mail.google.com/mail/u/0/?tab=rm&ogbl#inbox?compose=GTvVlcSHvpHzbdBPLNBLSvZpSMbHNpdDmFzFtCKXkmMJnkfdvqlxkDGNzkFMkXnNDSJQMqBLlgBbZ" target="_blank"><i class="fa-solid fa-envelope"></i></a>
+                    <a href="https://discordapp.com/users/458321535992594452" target="_blank"><i class="fa-brands fa-discord"></i></a>
+                    <a href="https://www.linkedin.com/in/jerald-ibanez-b79326224" target="_blank"><i class="fa-brands fa-linkedin"></i></a>
+                </div>
+                <a href="Images/Jerald-Resume.pdf" target="_blank" class="btn btn2">Open CV</a>
+
+            </div>
+                  <div class="contact-right">
+                    <form name="submit-to-google-sheet">
+                        <input type="text" name="Name" placeholder="Your Name" required>
+                        <input type="email" name="email" placeholder="Your email" required>
+                        <textarea name="Message"  rows="6" placeholder="Your Message"></textarea>
+                        <button type="submit" class="btn btn2">Submit</button>
+                    </form>
+                    <span id="msg"></span>
+                </div>   
+        </div>
+    </div>
+</div>
+    <script>
+        var tablinks = document.getElementsByClassName("tab-links");
+        var tabcontents = document.getElementsByClassName("tab-contents");
+
+        function opentab(tabname){
+            for(tablink of tablinks){
+                tablink.classList.remove("active-link");
+
+            }
+            for(tabcontent of tabcontents){
+                tabcontent.classList.remove("active-tab");
+        }
+        event.currentTarget.classList.add("active-link");
+        document.getElementById(tabname).classList.add("active-tab");
+    }
+    </script>
+
+    <script>
+        var sidemenu = document.getElementById("sidemenu");
+        function openmenu(){
+            sidemenu.style.right = "0";
+        }
+        function closemenu(){
+            sidemenu.style.right = "-200px";
+        }
+    </script>
+    <script>
+        const scriptURL = 'https://script.google.com/macros/s/AKfycbxN-xNUlFrrXddVjiaruaNExteP1keP1i-MWXYbLMs_UkYtvWwh9kDodmtt7CjRF1W9pw/exec'
+        const form = document.forms['submit-to-google-sheet']
+        const msg = document.getElementById("msg")
+      
+        form.addEventListener('submit', e => {
+          e.preventDefault()
+          fetch(scriptURL, { method: 'POST', body: new FormData(form)})
+            .then(response => {
+                msg.innerHTML = "Message sent succesfully"
+                setTimeout(function(){
+                    msg.innerHTML = ""
+                },5000)
+                form.reset()
+            })
+            .catch(error => console.error('Error!', error.message))
+        })
+      </script>
+</body>
+</html>
